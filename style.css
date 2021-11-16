@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(225, 226, 226);
+}
+
+.title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.board-container{
+    display: flex;
+    justify-content: center;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+
+button{
+    max-height: 30px;
+}
+
+.board{    
+    display: grid;
+    width: 60vw;
+    height: 60vw;   
+    background-color: lightgray;
+    gap: 0px;
+}
+
+.cell{
+    
+    background-color: white;
+}
+
+#control-slider{
+    width: 35vw;
+}
